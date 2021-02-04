@@ -1,0 +1,4 @@
+/venv/
+.idea/
+group_vars/*
+group_vars/all

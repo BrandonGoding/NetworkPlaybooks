@@ -1,0 +1,5 @@
+- hosts: ubuntupi
+  user: "{{ deploy_user }}"
+  roles:
+    - common
+    - ubuntupi
