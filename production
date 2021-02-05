@@ -1,11 +1,11 @@
 [init_config]
-192.168.1.80
+192.168.1.81 ansible_python_interpreter=/usr/bin/python3
 
 [common]
-192.168.1.80
+192.168.1.81 ansible_python_interpreter=/usr/bin/python3
 
 [webserver]
-192.168.1.80
+192.168.1.81 ansible_python_interpreter=/usr/bin/python3
 
 [ubuntupi]
 farmpi.brandongoding.tech ansible_python_interpreter=/usr/bin/python3

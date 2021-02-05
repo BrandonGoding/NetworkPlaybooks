@@ -1,4 +1,4 @@
 ansible_connection: ssh
-ansible_ssh_user: bgoding
+ansible_ssh_user: startuser
 ansible_ssh_pass: password
 ansible_sudo_pass: password
