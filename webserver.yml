@@ -4,3 +4,4 @@
   user: "{{ deploy_user }}"
   roles:
     - common
+    - webserver
