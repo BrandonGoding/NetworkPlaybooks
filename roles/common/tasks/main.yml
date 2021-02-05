@@ -1,9 +1,2 @@
-- name: Update APT package manager repositories cache
-  become: true
-  apt:
-    update_cache: yes
-
-- name: Upgrade installed packages
-  become: true
-  apt:
-    upgrade: dist
+# handles server protection and configuration regardless of server type
+- include: security.yml
